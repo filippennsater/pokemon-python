@@ -39,6 +39,6 @@ df = pd.read_csv('pokemon_data.txt', delimiter='\t') #when the information is se
 
 #print(df.sort_values('Name', ascending=False)) #prints out in alphabetical order, but in descending order
 
-#df['Total'] = df['HP'] + df['Attack'] + df['Defense'] + df['Sp. Atk'] + df['Sp. Def'] + df['Speed']
+df['Total'] = df['HP'] + df['Attack'] + df['Defense'] + df['Sp. Atk'] + df['Sp. Def'] + df['Speed']
 
 print(df.head(9))
