@@ -27,7 +27,7 @@ df = pd.read_csv('pokemon_data.txt', delimiter='\t') #when the information is se
 
 #print(df.iloc[1])       #print specific rows, also works with [1:3] etc
 
-#print(df.iloc[2,1])         #prints the one with index 2 with the info on row 1 = the name (Venusaur)
+print(df.iloc[2,1])         #prints the one with index 2 with the info on row 1 = the name (Venusaur)
 
 
 #for index, row in df.iterrows():
@@ -37,8 +37,8 @@ df = pd.read_csv('pokemon_data.txt', delimiter='\t') #when the information is se
 
 #print(df.sort_values('Name'))           #prints out in alphabetical order
 
-print(df.sort_values('Name', ascending=False)) #prints out in alphabetical order, but in descending order
+#print(df.sort_values('Name', ascending=False)) #prints out in alphabetical order, but in descending order
 
 #df['Total'] = df['HP'] + df['Attack'] + df['Defense'] + df['Sp. Atk'] + df['Sp. Def'] + df['Speed']
 
-print(df.head(9))
+#print(df.head(9))
