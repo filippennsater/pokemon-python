@@ -39,6 +39,6 @@ print(df.iloc[2,1])         #prints the one with index 2 with the info on row 1 
 
 #print(df.sort_values('Name', ascending=False)) #prints out in alphabetical order, but in descending order
 
-df['Total'] = df['HP'] + df['Attack'] + df['Defense'] + df['Sp. Atk'] + df['Sp. Def'] + df['Speed']
+#df['Total'] = df['HP'] + df['Attack'] + df['Defense'] + df['Sp. Atk'] + df['Sp. Def'] + df['Speed']
 
-print(df.head(9))
+#print(df.head(9))
